@@ -47,10 +47,8 @@ def run(array)
 
   while !methods.include?(input)
     puts "Please enter a command:"
-
-  end
-
-  case input
+end
+case input
   when "help"
     help
   when "list"
