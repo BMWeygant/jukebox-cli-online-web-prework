@@ -50,6 +50,17 @@ def run(array)
 
   end
 
+  case input
+  when "help"
+    help
+  when "list"
+    list
+  when "play"
+    play
+  when "exit_jukebox"
+    exit_jukebox
+    exit
+
 
 
 end
