@@ -40,9 +40,8 @@ def exit_jukebox
 end
 
 def run(array)
-puts "Please enter a command:"
   help
-  list
-  play
-  exit_jukebox
+puts "Please enter a command:"
+
+
 end
