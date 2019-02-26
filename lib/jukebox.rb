@@ -53,7 +53,7 @@ case input
     list
   when "play"
     play
-  when "exit_jukebox"
+  when "exit"
     exit_jukebox
     break
   end
