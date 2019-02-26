@@ -25,6 +25,7 @@ end
 end
 
 def play(array)
+  list(array)
   puts "Please enter a song name or number:"
   next_track = gets.chomp.to_i
   if next_track > 1 && next_track < 10
