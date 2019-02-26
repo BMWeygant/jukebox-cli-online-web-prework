@@ -39,25 +39,30 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run(array)
+def run(songs)
   methods = ["help", "list", "play", "exit"]
-    help
+  help
+  puts "Please enter a command:"
+  input = gets.strip
+
+   while !methods.include?(input)
     puts "Please enter a command:"
     input = gets.strip
-while !methods.include?(input)
-    puts "Please enter a command:"
-case input
+  end
+
+   case input
   when "help"
     help
-  when "list"
-    list
   when "play"
-    play
+    play(songs)
+  when "list"
+    list(songs)
   when "exit"
     exit_jukebox
     exit
   end
 
+   run(songs)
 end
 
 
