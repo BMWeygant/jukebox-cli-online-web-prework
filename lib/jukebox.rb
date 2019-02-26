@@ -57,7 +57,7 @@ case input
     exit_jukebox
     exit
   end
-  run(array)
+
 end
 
 
