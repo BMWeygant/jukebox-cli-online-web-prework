@@ -40,8 +40,14 @@ def exit_jukebox
 end
 
 def run(array)
-  help
-puts "Please enter a command:"
+  methods = ["help", "list", "play", "exit"]
+    help
+    puts "Please enter a command:"
+    input = gets.strip
+
+  while !methods.include?(input)
+    puts "Please enter a command:"
+
 
 
 end
