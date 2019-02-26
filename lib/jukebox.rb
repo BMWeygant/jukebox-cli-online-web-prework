@@ -60,7 +60,3 @@ case input
   end
 
 end
-
-
-
-end
