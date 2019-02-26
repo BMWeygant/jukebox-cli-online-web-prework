@@ -55,6 +55,7 @@ case input
     play
   when "exit"
     exit_jukebox
+    exit
   end
   run(array)
 end
