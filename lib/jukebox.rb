@@ -46,6 +46,7 @@ def run(array)
     input = gets.strip
 while !methods.include?(input)
     puts "Please enter a command:"
+    input = gets.strip
 case input
   when "help"
     help
