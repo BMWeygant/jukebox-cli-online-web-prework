@@ -60,6 +60,9 @@ def run(array)
   when "exit_jukebox"
     exit_jukebox
     exit
+  end
+  run(array)
+end
 
 
 
