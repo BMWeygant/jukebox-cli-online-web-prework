@@ -48,6 +48,8 @@ def run(array)
   while !methods.include?(input)
     puts "Please enter a command:"
 
+  end
+
 
 
 end
